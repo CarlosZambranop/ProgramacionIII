@@ -1,0 +1,55 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-hamburguesa">
+                <span>&#9776;</span>
+            </div>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="busqueda">
+                <input type="text" placeholder="Search">
+                <button>🔍</button>
+            </div>
+            <div class="user-cart">
+                <button>👤</button> 
+                <button>🛒</button> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carrusel">
+            <div class="imagen-principal">
+                <img src="https://www.apple.com/co/iphone-16/images/meta/iphone-16_overview__fcivqu9d5t6q_og.png?202409131406" alt="Imagen Carrusel" id="carrusel-imagen">
+            </div>
+        </section>
+        <section class="productos">
+            <h2>Productos</h2>
+            <input type="text" id="filtro-productos" placeholder="Buscar productos...">
+            <div id="lista-productos"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Síguenos en</p>
+        <div class="redes-sociales">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
