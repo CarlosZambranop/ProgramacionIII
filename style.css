@@ -52,3 +52,81 @@
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-hamburguesa {
+    font-size: 24px;
+}
+.logo h1 {
+    font-size: 24px;
+}
+.busqueda input {
+    padding: 5px;
+}
+.user-cart button {
+    margin-left: 10px;
+}
+main {
+    margin: 20px;
+}
+.carrusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide {
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0 20px;
+    user-select: none;
+}
+.imagen-principal img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+.info-ventas {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    width: 100px;
+}
+.acerca-de {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.redes-sociales a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
